@@ -12,6 +12,8 @@ int main() {
 
     // Printing values
     std::cout << "Original Value: " << myChar << std::endl;
+    std::cout << "Pointer value should be address: " << charPtr << std::endl;
+    std::cout << "Pointer value dereferenced in output string: "<< *charPtr << std::endl;
     std::cout << "Dereferenced Value: " << dereferencedValue << std::endl;
     std::cout << "Reference Value: " << charRef << std::endl;
 

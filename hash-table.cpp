@@ -30,6 +30,11 @@ typedef struct
     int count;
 } HashTable;
 
+
+
+///////////////////////////////
+// INSERTION
+//////////////////////////////
 // Enter a key value pair in the hashtable and return a pointer to it
 Ht_item *create_item(char *key, char *value)
 {
